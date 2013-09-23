@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Birthdays</string>
+    <string name="add">Add</string>
+    <string name="show_list">Show list</string>
+    <string name="sms_settings">SMS settings</string>
+    <string name="title_activity_add_birthday">Add birthday</string>
+    <string name="title_edit_birthday">Edit birthday</string>
+    <string name="first_name_string">First name:</string>
+    <string name="last_name_string">Last name:</string>
+    <string name="phone_number_string">Phone number:</string>
+    <string name="set_birthday_string">Set birthday:</string>
+    <string name="required_string">(Required)</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear fields</string>
+    <string name="turns">turns</string>
+    <string name="born">born</string>
+    <string name="in">in</string>
+    <string name="day">day</string>
+    <string name="days">days</string>
+    <string name="today">today</string>
+    <string name="choice_dialog_title">What do you want to do?</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="Fields_error">All fields must be filled out</string>
+    <string name="toast_add_birthday">The birthday is saved!</string>
+    <string name="toast_delete_birthday">is deleted!</string>
+	<string name="edit_text_preference_title">Birthday message</string>
+	<string name="edit_text_preference_summary">Define the birthday message</string>
+	<string name="edit_text_preference_dialog_message">Enter the birthday greeting you want to send:</string>
+	<string name="edit_text_preference_default_message">Happy birthday!</string>
+	<string name="notificationHasBirthdayText">has birthday today!</string>
+	<string name="notificationHaveBirthdayText">have birthday today!</string>
+	<string name="notificationSMSsendt">SMS has been sent.</string>
+	<string name="notificationSMSnotSendt">SMS has not been sent.</string>
+	<string name="notification_enable_SMS">Enable SMS</string>
+	<string name="notification_enable_SMS_summary">You can disable the sms feature</string>
+	<string name="notification_time">Time</string>
+	<string name="notification_time_summary">The SMS will be sent at:</string>
+</resources>

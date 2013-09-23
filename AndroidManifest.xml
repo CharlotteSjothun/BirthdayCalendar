@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hioa.mappe2.s180495"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+    
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="hioa.mappe2.s180495.ShowBirthdays"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="hioa.mappe2.s180495.AddBirthday"
+            android:label="@string/title_activity_add_birthday" >
+        </activity>
+        
+        <activity 
+            android:name="hioa.mappe2.s180495.SMSPreferenceActivity">
+		</activity>
+		
+		<receiver 
+		    android:name="hioa.mappe2.s180495.MyStartServiceReceiver" > 
+		    <intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter> 
+		</receiver>
+		
+		<service
+		     android:name="hioa.mappe2.s180495.MyService" 
+		     android:process=":my_process"> 
+		</service>
+		
+		<service 
+		    android:name="hioa.mappe2.s180495.SendSMSService" 
+		    android:process=":sms_service_process">
+		</service>
+		
+		<provider
+            android:name="hioa.mappe2.s180495.Provider" 
+            android:authorities="hioa.mappe2.s180495"
+            android:enabled="true"
+            android:exported="true"/>
+    </application>
+</manifest>

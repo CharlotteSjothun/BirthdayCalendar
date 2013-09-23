@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bursdager</string>
+    <string name="add">Legg til</string>
+    <string name="show_list">Vis liste</string>
+    <string name="sms_settings">SMS innstillinger</string>
+    <string name="title_activity_add_birthday">Legg til bursdag</string>
+    <string name="title_edit_birthday">Endre bursdag</string>
+    <string name="first_name_string">Fornavn:</string>
+    <string name="last_name_string">Etternavn:</string>
+    <string name="phone_number_string">Telefonnr:</string>
+    <string name="set_birthday_string">Sett bursdag:</string>
+    <string name="required_string">(Påkrevd)</string>
+    <string name="save">Lagre</string>
+    <string name="turns">fyller</string>
+    <string name="born">født</string>
+    <string name="in">om</string>
+    <string name="day">dag</string>
+    <string name="days">dager</string>
+    <string name="today">i dag</string>
+    <string name="choice_dialog_title">Hva vil du gjøre?</string>
+    <string name="edit">Endre</string>
+    <string name="delete">Slette</string>
+    <string name="cancel">Avbryt</string>
+    <string name="Fields_error">Alle feltene må være fylt ut</string>
+    <string name="toast_add_birthday">Bursdagen er lagret!</string>
+    <string name="toast_delete_birthday">er slettet!</string>
+	<string name="edit_text_preference_title">Bursdagsmelding</string>
+	<string name="edit_text_preference_summary">Definer bursdagsmeldingen</string>
+	<string name="edit_text_preference_dialog_message">Skriv inn bursdagsmeldingen du vil sende:</string>
+	<string name="edit_text_preference_default_message">Gratulerer med dagen!</string>
+	<string name="notificationHasBirthdayText">har bursdag i dag!</string>
+	<string name="notificationHaveBirthdayText">har bursdag i dag!</string>
+	<string name="notificationSMSsendt">SMS har blitt sendt.</string>
+	<string name="notificationSMSnotSendt">SMS har ikke blitt sendt.</string>
+	<string name="notification_enable_SMS">Aktiver SMS</string>
+	<string name="notification_enable_SMS_summary">Du kan deaktivere sms funksjonen</string>
+	<string name="notification_time">Tid</string>
+	<string name="notification_time_summary">SMSen blir sendt kl:</string>
+</resources>

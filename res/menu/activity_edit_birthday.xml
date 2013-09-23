@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/sms_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/sms_settings"/>
+
+    <item
+        android:id="@+id/delete_button"
+        android:showAsAction="always"
+        android:title="@string/delete"/>
+    
+    <item
+        android:id="@+id/save_button"
+        android:showAsAction="always"
+        android:title="@string/save"/>
+    
+</menu>

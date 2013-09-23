@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory 
+        android:title="@string/sms_settings">
+        
+        <CheckBoxPreference
+            android:key="isSMSEnabled"
+			android:title="@string/notification_enable_SMS" 
+			android:defaultValue="true"
+			android:summary="@string/notification_enable_SMS_summary"/>
+        
+	    <EditTextPreference
+	  		android:key="birthdayMessage"
+			android:title="@string/edit_text_preference_title"
+	 		android:summary="@string/edit_text_preference_summary"
+	 		android:dialogMessage="@string/edit_text_preference_dialog_message"   
+			android:defaultValue="@string/edit_text_preference_default_message" />
+	    
+    	<hioa.mappe2.s180495.TimePreference 
+    	    android:key="smsTime"
+    	    android:title="@string/notification_time"
+            android:summary="@string/notification_time_summary"/> 	    
+    </PreferenceCategory>
+</PreferenceScreen>
